@@ -4,13 +4,13 @@
    "logo": "https://telegra.ph/file/4d370b478d90d98709398.jpg",
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
    "repository": "https://github.com/Infamous-Hydra/YaeMiko",
-   "stack": "heroku-22",
+      "stack": "heroku-22",
    "addons": [
       {
-         "plan": "heroku-postgresql",
          "options": {
-            "version": "12"
-         }
+            "version": "13"
+         },
+         "plan": "heroku-postgresql"
       }
    ],
    "env": {
